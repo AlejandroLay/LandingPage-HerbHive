@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+* {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+ :root {
+    --color-1: #004992;
+    --color-2: #0067CE;
+    --color-3: #0080FF;
+    --color-4: #9ACDFF;
+    --color-5: #CDE6FF;
+    --color-6: #EDEDED;
+}
+
+nav {
+    padding: 25px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.herbhive-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.herbhive-logo img {
+    width: 60px;
+}
+
+.herbhive-logo h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+.navmenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.navmenu-habilitado {
+    color: black;
+    font-weight: 600;
+}
+
+.navmenu-deshabilitado {
+    color: #8f8f8f;
+    font-weight: 500;
+}
+
+.navmenu-deshabilitado:hover {
+    color: black;
+    font-weight: 500;
+}
+
+.btn-download button {
+    background-color: var(--color-3);
+    border: 2px solid var(--color-3);
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.btn-download button:hover {
+    background-color: white;
+    border: 2px solid var(--color-3);
+    border-radius: 10px;
+    color: var(--color-3);
+    font-weight: 600;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.btn-download i {
+    margin-left: 10px;
+}
+
+.main-title {
+    display: flex;
+    margin: 0px 40px 0px 40px;
+}
+
+.parte-izquierda-main-title {
+    width: 50%;
+    padding: 200px 80px 0px 80px;
+}
+
+.parte-derecha-main-title {
+    width: 50%;
+}
+
+.main-titulo h1 {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.main-subtitulo h1 {
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #535353;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image img {
+    width: 100%;
+}
+
+.apple-and-google-logos {
+    margin-top: 30px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
