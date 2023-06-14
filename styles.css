@@ -135,6 +135,13 @@ nav {
     align-items: center;
 }
 
+.burger-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 22px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1100px) {
     .main-title {
         flex-wrap: wrap;
@@ -157,7 +164,13 @@ nav {
     nav {
         padding: 25px 20px;
     }
-    .herbhive-logo h1 {
+    .navmenu {
         display: none;
+    }
+    .btn-download {
+        display: none;
+    }
+    .burger-icon {
+        display: block;
     }
 }
