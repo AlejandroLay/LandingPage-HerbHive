@@ -142,6 +142,22 @@ nav {
     cursor: pointer;
 }
 
+
+/* PRUEBAS */
+
+.menu-burger {
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    /* MODAL EFECTOS */
+    display: none;
+    overflow-y: auto;
+}
+
+.modal-open {
+    overflow: hidden;
+}
+
 @media screen and (max-width: 1100px) {
     .main-title {
         flex-wrap: wrap;
