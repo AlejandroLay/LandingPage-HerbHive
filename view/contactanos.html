@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HerbHive - Todas tus membresias en un mismo sitio</title>
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="../app.css">
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="../img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="../img/favicons/safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#000000">
+    <!-- LIBRERIA JS PARA ANIMACIONES EFECTOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e0b63cee0f.js" crossorigin="anonymous"></script>
+    <script src="../js/efecto-aparicion-suave.js"></script>
+</head>
+
+<body>
+    <div class="menu-burger" id="divParaMostrar">
+        <div class="container-boton-cerrar">
+            <i id="btnOcultar" class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="burger-navbar">
+            <a href="../index.html" class="navmenu-deshabilitado animate__animated animate__fadeInUp">Inicio</a>
+            <a href="#" class="navmenu-deshabilitado animate__animated animate__fadeInUp">Asociaciones</a>
+            <a href="#" class="navmenu-deshabilitado animate__animated animate__fadeInUp">Sobre Nosotros</a>
+            <a href="contactanos.html" class="navmenu-habilitado animate__animated animate__fadeInUp">Contactanos</a>
+        </div>
+    </div>
+    <nav>
+        <a href="../index.html">
+            <div class="herbhive-logo">
+                <img src="../img/herbhive.svg" alt="HerbHive Logo">
+                <h1>HerbHive</h1>
+            </div>
+        </a>
+        <div class="navmenu">
+            <a class="navmenu-deshabilitado" href="../index.html">Inicio</a>
+            <a class="navmenu-deshabilitado" href="">Asociaciones</a>
+            <a class="navmenu-deshabilitado" href="">Sobre Nosotros</a>
+            <a class="navmenu-habilitado" href="contactanos.html">Contactanos</a>
+        </div>
+        <div class="btn-download">
+            <a href="https://g3.daw2j23.es/HerbHive/public/">
+                <button>
+                    Web App
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </a>
+        </div>
+        <div class="burger-icon" id="btnMostrar">
+            <i class="fa-solid fa-bars-staggered"></i>
+        </div>
+    </nav>
+    <script src="../js/burger-menu.js"></script>
+    <script src="../js/efecto-aparicion-navmenu.js"></script>
+</body>
+
+</html>

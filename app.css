@@ -42,6 +42,7 @@ nav {
 .herbhive-logo h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
+    color: black;
 }
 
 .navmenu {
@@ -225,6 +226,9 @@ nav {
     }
     .burger-icon {
         display: block;
+    }
+    .herbhive-logo h1 {
+        display: none;
     }
 }
 
