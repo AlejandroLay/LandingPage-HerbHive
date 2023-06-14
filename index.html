@@ -8,6 +8,7 @@
     <title>HerbHive - Todas tus membresias en un mismo sitio</title>
     <!-- ESTILOS -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- FAVICONS -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
@@ -23,7 +24,15 @@
 
 <body>
     <div class="menu-burger" id="divParaMostrar">
-        <button id="btnOcultar">Ocultar Div</button>
+        <div class="container-boton-cerrar">
+            <i id="btnOcultar" class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="burger-navbar">
+            <a href="#" class="navmenu-habilitado animate__animated animate__fadeInUp">Inicio</a>
+            <a href="#" class="navmenu-deshabilitado animate__animated animate__fadeInUp">Asociaciones</a>
+            <a href="#" class="navmenu-deshabilitado animate__animated animate__fadeInUp">Sobre Nosotros</a>
+            <a href="#" class="navmenu-deshabilitado animate__animated animate__fadeInUp">Contactanos</a>
+        </div>
     </div>
     <nav>
         <div class="herbhive-logo">
@@ -68,6 +77,12 @@
         </div>
     </div>
     <script src="js/burger-menu.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            var burgerNavbar = document.querySelector('.burger-navbar');
+            burgerNavbar.classList.add('show');
+        });
+    </script>
 </body>
 
 </html>
