@@ -370,6 +370,41 @@ nav {
     margin-top: 11px;
 }
 
+.titulo-y-subtitulo-asociaciones {
+    display: flex;
+    margin-top: 45px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-y-subtitulo-asociaciones img {
+    width: 60%;
+    margin-top: 50px;
+}
+
+.titulo-asociaciones {
+    width: 60%;
+    text-align: center;
+}
+
+.titulo-asociaciones h1 {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.subtitulo-asociaciones {
+    width: 45%;
+    text-align: center;
+}
+
+.subtitulo-asociaciones p {
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #535353;
+}
+
 @media screen and (max-width: 1100px) {
     .main-title {
         flex-wrap: wrap;
@@ -423,6 +458,27 @@ nav {
     }
     .parte-derecha-formulario-inputs form {
         padding: 30px;
+    }
+    .titulo-y-subtitulo-asociaciones {
+        width: 100%;
+        padding: 0px 20px;
+        margin-top: 20px;
+    }
+    .titulo-asociaciones {
+        width: 100%;
+        text-align: left;
+    }
+    .subtitulo-asociaciones {
+        width: 100%;
+        text-align: left;
+    }
+    .titulo-asociaciones h1 {
+        font-weight: 800;
+        font-size: 50px;
+    }
+    .titulo-y-subtitulo-asociaciones img {
+        width: 100%;
+        margin-top: 50px;
     }
 }
 
