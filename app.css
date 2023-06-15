@@ -233,7 +233,6 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background-color: red;
     border: 1px solid white;
     color: var(--color-3);
     font-weight: 900;
@@ -293,7 +292,6 @@ nav {
     text-align: center;
     font-size: 18px;
     font-weight: 700;
-    color: red;
 }
 
 .container-formulario-contacto {
