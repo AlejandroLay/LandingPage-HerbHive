@@ -484,7 +484,7 @@ nav {
 @media screen and (max-width: 450px) {
     .cajas-contacto {
         width: 100%;
-        height: 350px;
+        min-height: 350px;
     }
     .container-cajitas-contacto {
         margin: 40px 100px;
