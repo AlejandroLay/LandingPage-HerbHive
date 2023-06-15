@@ -9,6 +9,14 @@
     box-sizing: border-box;
 }
 
+input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
  :root {
     --color-1: #004992;
     --color-2: #0067CE;
@@ -212,13 +220,11 @@ nav {
 .cajas-contacto {
     border: 1px solid rgba(219, 219, 219, 0.329);
     padding: 40px;
-    border-radius: 5px;
+    border-radius: 10px;
     min-width: 380px;
     min-height: 350px;
     background-color: white;
-    webkit-box-shadow: 2px 20px 110px -11px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 2px 20px 110px -11px rgba(0, 0, 0, 0.1);
-    box-shadow: 2px 20px 110px -11px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .cajas-contacto i {
@@ -226,14 +232,22 @@ nav {
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
+    color: var(--color-3);
 }
 
 .cajas-contacto p {
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
-    margin-top: 40px;
-    color: #8f8f8f;
+    margin-top: 30px;
+    color: #2f2f2f;
     font-weight: 400;
+}
+
+.centrar-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .titulo-cajas {
@@ -241,6 +255,81 @@ nav {
     font-size: 18px;
     font-weight: 700;
     color: #252525;
+}
+
+.container-formulario-contacto {
+    display: flex;
+    margin-top: 40px;
+    width: 80%;
+}
+
+.parte-izquierda-texto-formulario {
+    width: 55%;
+    height: 420px;
+    padding-right: 150px;
+    margin-top: 45px;
+}
+
+.parte-izquierda-texto-formulario h1 {
+    font-size: 50px;
+    color: var(--color-3);
+    font-weight: 800;
+}
+
+.parte-derecha-formulario-inputs {
+    width: 45%;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    /* Prueba */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte-derecha-formulario-inputs form {
+    text-align: left;
+    padding: 50px;
+}
+
+.input-nombre {
+    width: 100%;
+    padding: 11px;
+    background-color: rgb(242, 242, 242);
+    border: 1px solid rgb(242, 242, 242);
+    margin-bottom: 20px;
+    margin-top: 11px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.parte-derecha-formulario-inputs label {
+    color: #2f2f2f;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.parte-derecha-formulario-inputs input[type='submit'] {
+    background-color: var(--color-3);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border: 2px solid var(--color-3);
+}
+
+.input-mensaje {
+    border-radius: 5px;
+    resize: none;
+    width: 100%;
+    font-size: 14px;
+    min-height: 200px;
+    padding: 11px;
+    background-color: rgb(242, 242, 242);
+    border: 1px solid rgb(242, 242, 242);
+    margin-bottom: 20px;
+    margin-top: 11px;
 }
 
 @media screen and (max-width: 1100px) {
